@@ -1,0 +1,21 @@
+UI
+=> component
+=> pages
+=> navigate
+
+Hook   for managing State and API layers
+=> hooks
+
+State.  data store
+=> auth.context.jsx
+=> ai.context.jsx
+
+Api.  communicating with backend
+=> services
+    => auth.api.jsx
+    withCredentials: true means that the browser will include cookies in the request, allowing the server to identify the user and maintain session state. This is essential for authentication and authorization purposes, as it enables the server to recognize the user's identity and provide appropriate access to resources.
+
+
+first completed the UI layer,
+then moved to API layer and completed auth.api.jsx API's
+
