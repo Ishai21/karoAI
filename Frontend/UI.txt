@@ -7,7 +7,7 @@ Hook   for managing State and API layers
 => hooks
 
 State.  data store
-=> auth.context.jsx
+=> auth.context.jsx means
 => ai.context.jsx
 
 Api.  communicating with backend
