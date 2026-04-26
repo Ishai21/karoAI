@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@google/genai": "^1.50.1",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
@@ -7,7 +8,13 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.5.0"
+    "mongoose": "^9.5.0",
+    "multer": "^2.1.1",
+    "parse": "^3.5.1",
+    "pdf-parse": "^2.4.5",
+    "puppeteer": "^24.42.0",
+    "zod": "^4.3.6",
+    "zod-to-json-schema": "^3.25.2"
   },
   "scripts": {
     "dev": "npx nodemon server.js"
